@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Title</h1>
+    <p>Description</p>
+    <p></p>
+    <form>
+      <fieldset>
+        <!-- First Name --->
+        <label for="firstName">
+          First Name:
+          <input id="firstName" name="firstName" type="text" required />
+        </label>
+        <!-- Last Name --->
+        <label for="lastName">
+          Last Name:
+          <input id="lastName" name="lastName" type="text" required />
+        </label>
+        <!-- Phone Number --->
+        <label for="phoneNumber">
+          Phone Number:
+          <input
+            id="phoneNumber"
+            name="phoneNumber"
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+          />
+        </label>
+        <!-- Email --->
+        <label for="email">
+          Email Address: <input id="email" name="email" type="email" required />
+        </label>
+      </fieldset>
+      <fieldset>
+        <!-- Personal Account --->
+        <label for="personalAccount">
+          <input id="personalAccount" type="radio" /> Personal Account
+        </label>
+        <!-- Business Account --->
+        <label for="businessAccount">
+          <input id="businessAccount" type="radio" /> Business Account
+        </label>
+        <!-- Allow Texts --->
+        <label>
+          <input id="allowTexts" name="allowTexts" type="checkbox" /> I would
+          like to recieve text message notifications regarding my appointment
+        </label>
+      </fieldset>
+      <fieldset>
+        <!-- Choose apt day --->
+        <label>
+          Choose apointment day (Monday- Friday)
+          <input id="date" name="date" type="date" />
+        </label>
+        <!-- Choose apt time --->
+        <label>
+          Choose apointment time (office hours 10am - 5pm)
+          <input id="time" name="time" type="time" min="10:00" max="17:00" />
+        </label>
+        <!-- choose apt type --->
+        <label>
+          What do you need help with?
+          <select>
+            <option value="">(Select one)</option>
+            <option value="1">Open a checking, savings or credit card</option>
+            <option value="2">Talk about our digital tools</option>
+            <option value="3">Borrowing needs</option>
+            <option value="4">Send a wire</option>
+          </select>
+        </label>
+        <!-- explain apt info --->
+        <label>
+          In a few words, explain what you need help with.
+          <textarea
+            id="info"
+            name="info"
+            rows="5"
+            cols="30"
+            placeholder="Type here..."
+          >
+          </textarea>
+        </label>
+        <!-- upload helpful docs --->
+        <label>
+          Upload documents here <input id="file" name="file" type="file" />
+        </label>
+      </fieldset>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
