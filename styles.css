@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: #1b1b32;
+  background-color: #2f6ea8;
   color: #f5f6f7;
   font-family: Tahoma;
   font-size: 16px;
@@ -23,8 +23,9 @@ form {
 }
 
 fieldset {
+  background-color: #437fa1;
   border: none;
-  padding: 2rem 0;
+  padding: 2rem 2rem;
   border-bottom: 3px solid #3b3b4f;
 }
 
@@ -47,9 +48,9 @@ select {
 
 input,
 textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #999999;
 }
 
 .inline {
