@@ -3,11 +3,12 @@ body {
   height: 100vh;
   margin: 0;
   background-color: #2f6ea8;
-  color: #f5f6f7;
+  color: #ffffff;
   font-family: Tahoma;
   font-size: 16px;
-  background-image: url("https://miro.medium.com/max/1400/0*4TwEfPIqvi645kPP.jpg");
-  background-position: center;
+  background: url("https://www.usbank.com/content/dam/usbank/images/about-us-bank/company-blog/PressInterview_3x2.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
 }
 
 h1,
@@ -74,4 +75,8 @@ input[type="submit"] {
 
 input[type="file"] {
   padding: 1px 2px;
+}
+
+.titleText {
+  color: black;
 }
