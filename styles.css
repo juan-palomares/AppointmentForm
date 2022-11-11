@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   background: url("https://www.usbank.com/content/dam/usbank/images/about-us-bank/company-blog/PressInterview_3x2.jpg")
     no-repeat center center fixed;
-  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 h1,
@@ -28,8 +28,8 @@ form {
 fieldset {
   background-color: #437fa1;
   border: none;
-  padding: 2rem 2rem;
-  border-bottom: 3px solid #3b3b4f;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #3b3b4f;
 }
 
 fieldset:last-of-type {
